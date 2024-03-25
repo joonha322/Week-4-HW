@@ -12,7 +12,7 @@ int main() {
 	dt = 0.005;
 	T = 0.5;
 	for (t = 0.0; t < T; t += dt) {
-		xx << t << " " << cos(20 * pi * t) * cos(220 * pi * t) << " " << 60 * sin(240 * pi * t) + 80 * sin(220 * pi * t) << endl;
+		xx << t << " " << 100*cos(20 * pi * t) * cos(220 * pi * t) << " " << 60 * sin(240 * pi * t) + 80 * sin(220 * pi * t) << endl;
 	}
 	xx.close();
 	return 1;
